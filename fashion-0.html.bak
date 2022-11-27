@@ -1,0 +1,56 @@
+<html>
+<style>
+body
+{
+margin:0;
+display:flex;
+background:url("https://img.freepik.com/free-vector/geometric-background-concept_23-2148540971.jpg?w=1380");
+width:100%;
+align-items:center;
+}
+h1
+{
+margin-top:-200px;
+margin-right:-900px;
+margin-left:200px;
+font-size:150px;
+}
+button
+{
+padding:15px 60px;
+margin:20px;
+font-size:20px;
+font-famaily:monospace;
+cursor:pointer;
+border-radius:30px;
+border:none;
+font-weight:bold;
+transition:.5s ease-in;
+}
+.button-1:hover
+{
+box-shadow:inset -100px 0px 0px 0px purple,inset 100px 0px 0px 0px purple;
+}
+.button-2:hover
+{
+box-shadow:inset -100px 0px 0px 0px olive,inset 100px 0px 0px 0px olive; 
+}
+.button-3:hover
+{
+box-shadow:inset -100px 0px 0px 0px teal,inset 100px 0px 0px 0px teal;
+}
+.button-4:hover
+{
+box-shadow:inset -100px 0px 0px 0px tomato,inset 100px 0px 0px 0px tomato;
+}
+</style>
+<body>
+<h1><i><b>FASHION-HUB</b></i></h1>
+<div class="container">
+<a href ="file:///C:/Users/UTHAYA/OneDrive/Desktop/project/fashion-2.0/fashion-1.html"><button class="button-1">MEN</button></a>
+<a href ="file:///C:/Users/UTHAYA/OneDrive/Desktop/project/fashion-2.0/fashion-2.html"><button class="button-2">WOMEN</button></a>
+<a href="file:///C:/Users/UTHAYA/OneDrive/Desktop/project/fashion-2.0/fashion-3.html"><button class="button-3">KIDS</button></a>
+<a href="file:///C:/Users/UTHAYA/OneDrive/Desktop/project/fashion-2.0/fashion-4.html"><button class="button-4">TERMS</button></a>
+</div>
+</body>
+</html>
